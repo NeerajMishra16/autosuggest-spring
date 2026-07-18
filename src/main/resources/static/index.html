@@ -18,19 +18,20 @@
         
      </div>
 
-     <div class="card">
-        <img id="user-image" src="john.png" alt="image not found">
-        <h3 id="user-name">John Doe</h3>
-        <br>
-        <p id="user-gender">Male</p>
-        <br>
+     <div class="card" id="card">
+        <div class="photo-wrap">
+            <img id="user-image" src="john.png" alt="image not found">
+        </div>
 
-        <button onclick="toggleUser()" >Toggle User</button>
-        <br>
-        <br>
-        <button> Random User</button>
-        <br>
-        <br>
+        <div class="info" id="info">
+            <h3 id="user-name">John Doe</h3>
+            <p id="user-gender">Male</p>
+        </div>
+
+        <div class="actions" id="actions">
+            <button id="toggle-btn" onclick="toggleUser()">Toggle User</button>
+            <button id="random-btn" onclick="randomUser()">Random User</button>
+        </div>
      </div>
     <script src="index.js"></script>
 </body>

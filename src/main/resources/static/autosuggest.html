@@ -48,11 +48,15 @@
    border: 2px solid rgb(86, 173, 250);
 }
         .symbol{
-            position:relative;
-            left:30px;
-            right:10px;
-
-        }
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search-wrap{
+    position: relative;
+    display: inline-block;
+}
 
         
     </style>
@@ -65,13 +69,17 @@
    
 <br>
 <br>
-
+<br>
    <h1 class="one">
     Being <span class="two">infinity</span></h1>
    
    <p id="body">One million.four algorithms.prefix based autosuggest</p>
+   <div class="wrap">
+
+   
    <span class="symbol">&#128269;</span>
     <span><input class="search" type="text" placeholder="start typing"></span>
+    </div>
    
    
 
