@@ -3,38 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Auto Suggest</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body> 
-    <div class ="navbar">
-        <a href="">home</a>
-        <a href="">github</a>
-        <a href="https://www.youtube.com/">youtube</a>
-        <a href="">google</a>
-    </div>
-    <div class="card">
-        <img src="jane.png" alt="oopsies">
-        <h3 id="john sai">John sai</h3>
-        <br>
-        <p>Male</p>
-        <br>
-        <a href="https://www.youtube.com/watch?v=QDia3e12czc" >
-        <button>toggle user</button>
-        </a>
-        <br>
-        <br>
-        
-            <button>go back</button>
-        
-        <br>
-        <br>
-        
-        
-        
-    
+<body>
+    <!-- <h1>Hello World!</h1> -->
+     <div class="navbar">
+        <a href="">Home</a>
+        <a href="https://github.com/">Github</a>
+        <a href="">Leetcode</a>
+        <a href="">Autosuggest</a>
+     </div>
 
+     <div class="card">
+        <img id="user-image" src="john.png" alt="image not found">
+        <h3 id="user-name">John Doe</h3>
+        <br>
+        <p id="user-gender">Male</p>
+        <br>
 
-    </div>
+        <button onclick="toggleUser()" >Toggle User</button>
+        <br>
+        <br>
+        <button> Random User</button>
+        <br>
+        <br>
+     </div>
+    <script src="index.js"></script>
 </body>
-</html> 
+</html>
