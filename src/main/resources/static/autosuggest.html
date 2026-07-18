@@ -6,40 +6,32 @@
     <title>autosuggest</title>
     <style>
         .one{
-            
             color: blueviolet;
-            
             border-color: black;
-            
-
-
         }
         .gear{
              position: absolute;
             top: 10px;
             left: 10px;
-
         }
         body{
             text-align:center;
             background-color: rgb(252, 252, 252);
         }
         #dot{
-
             text-align: right;
         }
-       
         .dot{
             position: absolute;
             top: 10px;
             right: 10px;
         }
         .two{
-              
               color:rgb(86, 173, 250);
-              
-              
-
+        }
+        .search-wrap{
+            position: relative;
+            display: inline-block;
         }
        .search{
    padding: 6px 6px 6px 36px;
@@ -53,35 +45,23 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.search-wrap{
-    position: relative;
-    display: inline-block;
-}
-
-        
     </style>
 </head>
 <body> 
    <span class="gear">&#x2699;</span>
    <span class="dot">&#x2022; online| &#x1F552;-ms</span>
-   
-   
-   
-<br>
+
 <br>
 <br>
    <h1 class="one">
     Being <span class="two">infinity</span></h1>
    
    <p id="body">One million.four algorithms.prefix based autosuggest</p>
-   <div class="wrap">
 
-   
-   <span class="symbol">&#128269;</span>
-    <span><input class="search" type="text" placeholder="start typing"></span>
-    </div>
-   
-   
+   <div class="search-wrap">
+       <span class="symbol">&#128269;</span>
+       <input class="search" type="text" placeholder="start typing">
+   </div>
 
 </body>
 </html>
